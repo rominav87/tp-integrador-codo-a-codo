@@ -18,6 +18,13 @@ createApp({
             url: "https://api.sampleapis.com/coffee/hot",
             datos: [],
             error: false,
+            title: [],
+            ingredients:[],
+
+            title: "ALL",
+            ingredients: "ALL"
+
+            
         }
     },
     methods: {
@@ -28,6 +35,8 @@ createApp({
                     data => {
                         console.log(data)
                         this.datos = data
+                        this.title = data
+                        this.ingredients = data
                     }
                 )
                 .catch(error => {
@@ -35,6 +44,10 @@ createApp({
                     this.error = true
                 });
         }
+    },
+
+    filtro() {
+        this.datos = this.data.filter(elemento=>(elemento.title==this.title || this.title==="ALL") && (elemento.ingredients==this.ingredients || this.ingredients==="ALL"))
     },
     created() {  // created() se ejecuta cada vez que se crea el objeto VUE
         this.fetchData(this.url)
