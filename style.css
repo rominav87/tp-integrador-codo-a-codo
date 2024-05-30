@@ -75,14 +75,15 @@ body {
   display: none;
 }
 
-h1 {
-  text-align: center;
-  color: #09752a;
-  margin: 30px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+h1{
+    text-align: center;
+    color: #09752a;
+    margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
+/* MOBILE */
 @media (max-width: 768px) {
   body {
     padding-top: 70px;
@@ -138,19 +139,20 @@ h1 {
   }
 }
 
-.d-flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
-.tarjeta {
-  width: 200px;
-  border: 1px solid #09752a;
-  border-radius: 4px;
-}
+};
 
-.tarjeta img {
-  width: 100%;
+.tarjeta{
+    width: 200px;
+    border: 1px solid #09752a;
+    border-radius: 4px;
+};
+
+.tarjeta img{
+    width: 100%;
 }
