@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -78,12 +79,55 @@
           </li>
         </ul>
       </nav>
+=======
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script
+    src="https://kit.fontawesome.com/7e5b2d153f.js"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link"><img src="/img/coffee.jpg" width=60px alt=""></a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link nav-link"></a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link nav-link">Ubicacion</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link nav-link">Tienda</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link nav-link nav-menu-link_active">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+>>>>>>> 241c7c5538e8ee96a8f977db7eae268f529275c8
     </header>
 
-    <h1>Cafecito de especialidad</h1>
+</div>
 
     <div id="app">
+<<<<<<< HEAD
       <!-- <p>{{datos}}</p> -->
+=======
+        <!-- <p>{{datos}}</p> -->
+        <h1>Cafecito de especialidad</h1> 
+    <div class="buscador-cafe">
+    <input type="text" name="" id="searchInput" placeholder="Elegi tipo de cafe">
+    <button v-on:click="fetchData()">Buscar</button></dIv>
+>>>>>>> 241c7c5538e8ee96a8f977db7eae268f529275c8
 
       <div v-if="error===true">se produjo un error, intente mas tarde</div>
       <div v-else class="d-flex flex-wrap">
@@ -95,8 +139,17 @@
             :alt="data.title"
           />
 
+<<<<<<< HEAD
           <p>{{data.title}}</p>
           <p>{{data.ingredients}}</p>
+=======
+                <p>{{data.id}}</p>
+                <p>{{data.title}}</p>
+
+                
+                <!-- <p>{{data.ingredients}}</p> -->
+            </div>
+>>>>>>> 241c7c5538e8ee96a8f977db7eae268f529275c8
         </div>
       </div>
     </div>

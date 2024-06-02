@@ -58,7 +58,7 @@ body {
 
 .nav-menu-link:hover,
 .nav-menu-link_active {
-  background-color: #d7e5f0;
+  /* background-color: #d7f0e3; */
   transition: 0.5s;
 }
 
@@ -75,14 +75,15 @@ body {
   display: none;
 }
 
-h1 {
-  text-align: center;
-  color: #09752a;
-  margin: 30px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+h1{
+    text-align: center;
+    color: #09752a;
+    margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
+/* MOBILE */
 @media (max-width: 768px) {
   body {
     padding-top: 70px;
@@ -102,7 +103,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    background-color: #2c3e50;
+    /* background-color: #d826f4; */
     position: fixed;
     top: 60px;
     width: 100%;
@@ -138,17 +139,57 @@ h1 {
   }
 }
 
-.d-flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.buscador-cafe{
+  margin: 30px;
+  text-align: center;
 }
 
-.tarjeta {
-  width: 200px;
-  border: 1px solid #09752a;
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    background-color: #09752a
+  
+
+};
+
+.tarjeta{
+    width: 450px;
+    height: 200px;
+    border: 1px solid #09752a;
+    border-radius: 4px;
+    padding: 5px;
+    
+};
+
+.tarjeta img{
+    width: 100%;
+}
+
+p{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 10px;
+
+}
+
+button{
+  background-color: #047827;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+input{
+  padding: 5px;
   border-radius: 4px;
+<<<<<<< HEAD
 }
 
 .tarjeta img {
@@ -205,4 +246,7 @@ h1 {
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+=======
+  margin: 5px;
+>>>>>>> 241c7c5538e8ee96a8f977db7eae268f529275c8
 }
