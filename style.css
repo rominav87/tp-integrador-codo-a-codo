@@ -20,14 +20,15 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-
   max-width: 992px;
   margin: 0 auto;
+  z-index: 10;
 }
 
 .nav-link {
   color: white;
   text-decoration: none;
+  
 }
 
 .logo {
