@@ -46,7 +46,7 @@
             <a href="#" class="nav-menu-link nav-link">Tienda</a>
           </li>
           <li class="nav-menu-item">
-            <a href="#" class="nav-menu-link nav-link">Contacto</a>
+            <a href="./contacto.html" class="nav-menu-link nav-link">Contacto</a>
           </li>
           <li class="nav-menu-item">
             <a href="#" class="nav-menu-link nav-link">Ubicacion</a>
@@ -85,8 +85,8 @@
 
     <div v-if="error===true">se produjo un error, intente mas tarde</div>
     <div v-else class="bg-dark d-flex flex-wrap container mt-5 px-0 align-self-auto justify-content-evenly card-container">
-      <div v-for="data in datos" class="card m-1 border border-3 d-flex">
-        <div class="card-image">
+      <div v-for="data in datos" class="card m-1 border border-">
+        <div class="card-image rounded">
           <img class="rounded-top" :src="data.image" width="300px" height="500px" :alt="data.title" />
         </div>
         <div class="card-body bg-success">

@@ -12,9 +12,11 @@ body {
   background-color: #09752a;
   height: 80px;
   position: fixed;
+  z-index: 1;
   width: 100%;
   top: 0;
   left: 0;
+
 }
 
 .nav {
