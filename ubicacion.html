@@ -56,16 +56,14 @@
     <header class="header">
       <nav class="nav justify-content-center fixed-top">
         <a href="#" class="logo nav-link"
-          ><img src="/img/ico.png" width="60px"alt="" class="navbar-brand"
+          ><img src="/img/ico.png" width="60px" alt="" class="navbar-brand"
         /></a>
         <button class="nav-toggle" aria-label="Abrir menú">
           <i class="fas fa-bars"></i>
         </button>
         <ul class="nav-menu">
           <li class="nav-menu-item">
-            <a href="./index.html" class="nav-menu-link nav-link"
-              >Menu</a
-            >
+            <a href="/index.html" class="nav-menu-link nav-link">Menu</a>
           </li>
           <li class="nav-menu-item">
             <a href="./videos.html" class="nav-menu-link nav-link">Videos</a>
@@ -74,11 +72,15 @@
             <a href="#" class="nav-menu-link nav-link">Tienda</a>
           </li>
           <li class="nav-menu-item">
-            <a href="#" class="nav-menu-link nav-link nav-menu-link_active">Contacto</a>
+            <a href="./contacto.html" class="nav-menu-link nav-link"
+              >Contacto</a
+            >
           </li>
           <li class="nav-menu-item">
-            <a href="./ubicacion.html" class="nav-menu-link nav-link">Ubicacion</a>
-        </li>
+            <a href="#" class="nav-menu-link nav-link nav-menu-link_active"
+              >Ubicacion</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -86,67 +88,24 @@
     <div
       class="p-5 bg-success d-flex-row justify-content-center rounded border border-5"
     >
-      <p class="text-center fs-1 text-white text-uppercase">Contactanos</p>
+      <p class="text-center fs-1 text-white">¡Encuentranos aqui!</p>
+      <div class="shadow p-2 mb-1 bg-dark rounded ">
+        <iframe
 
-      <div class="bg-light p-5 rounded border-5 border">
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label for="inputname" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="inputName" />
-          </div>
-          <div class="col-md-6">
-            <label for="inputApellido" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="inputApellido" />
-          </div>
-          <div class="col-12">
-            <label for="inputAddress" class="form-label">Direccion</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputAddress"
-              placeholder="1234 Santa Fe, Córdoba"
-            />
-          </div>
-            <div class="col-1">
-              <label for="inputPhone" class="form-label">Cod. Area</label>
-              <input
-              type="text"
-              class="form-control"
-              id="inputPhoneC"
-              placeholder="(0351)"
-              />
-            </div>
-            <div class="col-6">
-              <label for="inputPhone" class="form-label">Telefono</label>
-              <input
-                type="text"
-                class="form-control"
-                id="inputPhoneN"
-                placeholder="3936692"
-              />
-            </div>
-          <div class="col-md-6">
-            <label for="inputCiudad" class="form-label">Ciudad</label>
-            <input type="text" class="form-control" id="inputCiudad" />
-          </div>
-          <div class="col-md-2">
-            <label for="inputCodPostal" class="form-label">CodPostal</label>
-            <input type="text" class="form-control" id="inputCodPostal" />
-          </div>
-          <div class="col-12">
-            <div class="mb-3">
-              <label for="inputEmail" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="nombre@ejemplo.com">
-            </div>
-          </div>
-          <div class="mb-3">
-            <label for="comentarios" class="form-label">Comentario</label>
-            <textarea class="form-control" id="comentario" rows="3"></textarea>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-dark align-items-center">enviar</button>
-          </div>
-        </form>
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d715.8725740099002!2d-64.19392835300724!3d-31.406329089038653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432987d73a9fd1b%3A0x8cb5a76a75756d81!2sPuente%20Avellaneda!5e0!3m2!1ses!2sar!4v1717525736597!5m2!1ses!2sar"
+          width="100%"
+          height="500em"
+          style="border: 0; padding: 0; margin: 0%;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <!-- MAP INDICATIONS -->
+        <div class=" m-0 p-0 d-flex justify-content-center">
+            <button type="button" class="btn btn-dark border-white  rounded-0 w-50 mx-2 mb-2"><a
+                    class="text-decoration-none text-white"
+                    href="https://maps.google.com/maps/dir//Puente+Avellaneda+C%C3%B3rdoba/@-31.40597,-64.1938234,19z/data=!4m5!4m4!1m0!1m2!1m1!1s0x9432987d73a9fd1b:0x8cb5a76a75756d81">INDICATIONS</a></button>
+        </div>
       </div>
     </div>
     <div>
